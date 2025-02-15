@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-04 06:58:35 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\jaehyeok\Sumo\2024-06-03-20-36-56\osm.sumocfg"/>
+        <additional-files value="C:\Users\jaehyeok\Sumo\2024-06-03-20-36-56\osm.poly.xml.gz"/>
+        <route-files value="C:\Users\jaehyeok\Sumo\2024-06-03-20-36-56\osm.bus.trips.xml"/>
+        <sumo-net-file value="C:\Users\jaehyeok\Sumo\2024-06-03-20-36-56\osm.net.xml.gz"/>
+    </input>
+
+    <output>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="452387127" type="static" programID="0" offset="0">
+        <phase duration="40" state="rrrrrrrGGggrrrrrrrGGgg"/>
+        <phase duration="5" state="rrrrrrryyyyrrrrrrryyyy"/>
+        <phase duration="40" state="GGGGGggrrrrGGGGGggrrrr"/>
+        <phase duration="5" state="yyyyyyyrrrryyyyyyyrrrr"/>
+
+        <!-- phase 2 -->
+        <!-- <phase duration="30" state="rrrGGGGrrrrrrrGGGGrrrr"/>
+        <phase duration="4" state="rrryyyyrrrrrrryyyyrrrr"/>
+        <phase duration="30" state="GGGrrrrGGGGGGGrrrrGGGG"/>
+        <phase duration="4" state="yyyrrrryyyyyyrrrryyyy"/> -->
+
+        <!-- phase 3 -->
+        <!-- <phase duration="35" state="rrrrGGGGGGrrrrGGGGGGrr"/>
+        <phase duration="6" state="rryyrrrrrrrryyrrrrrrrr"/>
+        <phase duration="35" state="GGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="6" state="yyrrrrrrrryyGGrrrrrrrr"/> -->
+
+        <!-- phase 4 -->
+        <!-- <phase duration="45" state="rrrrrrrrGGGGrrrrrrrrGG"/>
+        <phase duration="5" state="rrrrrryyrrrrrrrryyrrrr"/>
+        <phase duration="45" state="GGGGrrrrrrrrGGGGrrrrrr"/>
+        <phase duration="5" state="yyyyrrrrrrrryyyyrrrrrr"/> -->
+    </tlLogic>
+</additional>
